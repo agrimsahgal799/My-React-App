@@ -12,6 +12,7 @@ export default function Blogs() {
   const [totalPages, setTotalPages] = useState(0);
   const itemsPerPage = 20; 
 
+  // useEffect(<function>, <dependency>)
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/photos")
       .then((res) => res.json())

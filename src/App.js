@@ -2,6 +2,7 @@ import Layout from './Components/Common/Layout';
 import Blogs from './Components/Pages/Blogs';
 import Contact from './Components/Pages/Contact';
 import Home from './Components/Pages/Home';
+import Students from './Components/Pages/Students';
 import logo from './logo.svg';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -14,6 +15,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="students" element={<Students />} />
           </Route>
         </Routes>
       </BrowserRouter>

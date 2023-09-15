@@ -14,6 +14,7 @@ export default function Layout() {
                         <li><Link type="button" className="nav-link text-white" to="/">Home</Link></li>
                         <li><Link type="button" className="nav-link text-white" to="/blogs">Blogs</Link></li>
                         <li><Link type="button" className="nav-link text-white" to="/contact">Contact</Link></li>
+                        <li><Link type="button" className="nav-link text-white" to="/students">Students</Link></li>
                     </ul>
                 </div>
             </div>
