@@ -28,7 +28,7 @@ function Students() {
             body: JSON.stringify(data)
         }).then((d)=>{
             console.log(d);
-            if(d.status == 200){
+            if(d.status === 200){
                 Swal.fire({
                     icon: 'success',
                     text: 'Student added successfully.',
