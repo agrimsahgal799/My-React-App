@@ -7,7 +7,6 @@ function Students() {
     const [studentEmail, setStudentEmail] = useState('');
 
     let myFunction = ()=>{
-        // alert('this');
         let data = {
             "data": {
                 "name": studentName,
