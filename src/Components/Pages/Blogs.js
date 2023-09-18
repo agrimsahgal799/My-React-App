@@ -65,7 +65,7 @@ export default function Blogs() {
                         <tr className="Album-list" key={item.id}>
                           <td className="id">{item.id}</td>
                           <td className="Album-id">{item.albumId}</td>
-                          <td className="Album-thumbnailUrl"><a href={item.url} target="_blank"><img src={item.thumbnailUrl}></img></a></td>
+                          <td className="Album-thumbnailUrl"><a href={item.url} target="_blank" rel="noopener"><img src={item.thumbnailUrl} alt=""></img></a></td>
                           <td className="Album-title">{item.title}</td>
                         </tr>
                       )
