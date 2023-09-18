@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Swal from 'sweetalert2'
 
 function Students() {
 
     const [studentName, setStudentName] = useState('');
     const [studentEmail, setStudentEmail] = useState('');
-
-    useEffect(() => {
-       
-    }, []);
 
     let myFunction = ()=>{
         // alert('this');
